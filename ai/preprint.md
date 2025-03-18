@@ -13,12 +13,12 @@
 
 ## Основные определения
 
-### 1. Группа человечества $$ H $$
+### 1. Группа человечества $$H$$
 
 **Определение 1.1**  
 $$H = \langle S_1, S_2 \mid S_1^k = e, \ S_1 S_2 S_1^{-1} = S_2^m \rangle$$  
 где:
-- $S_1$: Генератор инноваций ($$ k $$-периодический),
+- $S_1$: Генератор инноваций ($$k$$-периодический),
 - $S_2$: Генератор коллаборации (бесконечный порядок).
 
 **Пример:**  
@@ -27,7 +27,7 @@ $$S_1 S_2 S_1^{-1} = S_2^2 \implies \text{каждая инновация удв
 
 ---
 
-### 2. ИИ-категория $$ C_A $$
+### 2. ИИ-категория $$C_A$$
 
 **Определение 2.1**  
 Категория $C_A$ задаётся:
@@ -200,9 +200,9 @@ $$\gamma_A^{\text{real}}(n) \sim n^c \quad (c > d) \quad \text{при} \quad E_{
 [2] Аменабельность — свойство групп, аналогичное компактности в топологии.
 Аменабельная группа — локально компактная топологическая группа G, в которой возможно ввести операцию усреднения на ограниченных функциях на этой группе, инвариантную относительно умножения на любой элемент группы.
 
-**Литература**
-[Milnor's problem on the growth of groups and its consequences, Grigorchuk](https://arxiv.org/pdf/1111.0512)  
-[Энтропия Шеннона](https://ru.wikipedia.org/wiki/Информационная_энтропия)  
-[Landauer R. (1961) Irreversibility and Heat Generation.](https://www.scirp.org/reference/referencespapers?referenceid=1830578)  
-[The stochastic thermodynamics of computation, David Wolpert](https://iopscience.iop.org/article/10.1088/1751-8121/ab0850/ampdf)  
-[Introduction to Artificial Consciousness](https://arxiv.org/pdf/2503.05823)  
+**Литература**  
+- [Milnor's problem on the growth of groups and its consequences, Grigorchuk](https://arxiv.org/pdf/1111.0512)  
+- [Энтропия Шеннона](https://ru.wikipedia.org/wiki/Информационная_энтропия)  
+- [Landauer R. (1961) Irreversibility and Heat Generation.](https://www.scirp.org/reference/referencespapers?referenceid=1830578)  
+- [The stochastic thermodynamics of computation, David Wolpert](https://iopscience.iop.org/article/10.1088/1751-8121/ab0850/ampdf)  
+- [Introduction to Artificial Consciousness](https://arxiv.org/pdf/2503.05823)  
