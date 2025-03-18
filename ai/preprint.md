@@ -16,14 +16,14 @@
 ### 1. Группа человечества $$ H $$
 
 **Определение 1.1**  
-$$ H = \langle S_1, S_2 \mid S_1^k = e, \ S_1 S_2 S_1^{-1} = S_2^m \rangle $$  
+$$H = \langle S_1, S_2 \mid S_1^k = e, \ S_1 S_2 S_1^{-1} = S_2^m \rangle$$  
 где:
-- $$ S_1 $$: Генератор инноваций ($$ k $$-периодический),
-- $$ S_2 $$: Генератор коллаборации (бесконечный порядок).
+- $S_1$: Генератор инноваций ($$ k $$-периодический),
+- $S_2$: Генератор коллаборации (бесконечный порядок).
 
 **Пример:**  
-При $$ k=5 $$ (5-летние инновационные циклы) и $$ m=2 $$:
-$$ S_1 S_2 S_1^{-1} = S_2^2 \implies \text{каждая инновация удваивает эффективность коллаборации}. $$
+При $k=5$ (5-летние инновационные циклы) и $m=2$:
+$$S_1 S_2 S_1^{-1} = S_2^2 \implies \text{каждая инновация удваивает эффективность коллаборации}$$
 
 ---
 
@@ -85,7 +85,7 @@ $$ [S_1^n, S_2] = S_2^{m^n - 1}. $$
 **Доказательство (индукция):**  
 - **База:** $$ n=1 $$:  
 $$ S_1 S_2 S_1^{-1} = S_2^m \implies [S_1, S_2] = S_2^{m-1}. $$
-- **Шаг:** Для $$ n+1 $$:  
+- **Шаг:** Для $n+1$:  
 $$ S_1^{n+1} S_2 S_1^{-(n+1)} = (S_1 S_2 S_1^{-1})^{m^n} = S_2^{m^{n+1}}. $$
 
 ---
@@ -201,8 +201,8 @@ $$ \gamma_A^{\text{real}}(n) \sim n^c \quad (c > d) \quad \text{при} \quad E_
 Аменабельная группа — локально компактная топологическая группа G, в которой возможно ввести операцию усреднения на ограниченных функциях на этой группе, инвариантную относительно умножения на любой элемент группы.
 
 **Литература**
-[Milnor's problem on the growth of groups and its consequences, Grigorchuk](https://arxiv.org/pdf/1111.0512)
-[Энтропия Шеннона](https://ru.wikipedia.org/wiki/Информационная_энтропия)
-[Landauer R. (1961) Irreversibility and Heat Generation.](https://www.scirp.org/reference/referencespapers?referenceid=1830578)
-[The stochastic thermodynamics of computation, David Wolpert](https://iopscience.iop.org/article/10.1088/1751-8121/ab0850/ampdf)
-[Introduction to Artificial Consciousness](https://arxiv.org/pdf/2503.05823)
+[Milnor's problem on the growth of groups and its consequences, Grigorchuk](https://arxiv.org/pdf/1111.0512)  
+[Энтропия Шеннона](https://ru.wikipedia.org/wiki/Информационная_энтропия)  
+[Landauer R. (1961) Irreversibility and Heat Generation.](https://www.scirp.org/reference/referencespapers?referenceid=1830578)  
+[The stochastic thermodynamics of computation, David Wolpert](https://iopscience.iop.org/article/10.1088/1751-8121/ab0850/ampdf)  
+[Introduction to Artificial Consciousness](https://arxiv.org/pdf/2503.05823)  
