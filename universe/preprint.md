@@ -60,9 +60,7 @@ $$c_{\text{light}} = \frac{\Delta x}{\Delta t} = \Delta x \cdot c.$$
 
 **Теорема 4.3** (Дискретность времени):  
 Если $\mathcal{T}$ дискретна, то для любой физической величины $A$:  
-$$
-\Delta A \geq \frac{\partial A}{\partial t} \Delta t,
-$$  
+$$\Delta A \geq \frac{\partial A}{\partial t} \Delta t,$$  
 где $\Delta t = \frac{1}{c}$ — минимальный шаг времени.
 
 ---
@@ -76,16 +74,12 @@ $$
 
 **Теорема 5.2** (Предел энергии):  
 Максимальная энергия частицы в симуляции:  
-$$
-E_{\text{max}} = \frac{\hbar}{\Delta t} = \hbar c.
-$$  
+$$E_{\text{max}} = \frac{\hbar}{\Delta t} = \hbar c.$$  
 *Доказательство:* Из принципа неопределённости $\Delta E \Delta t \geq \hbar/2$.
 
 **Теорема 5.3** (Квантование гравитации):  
 Если $\Gamma$ — квантованная решётка, то метрика $g_{\mu\nu}$ дискретна, и уравнения Эйнштейна заменяются разностными уравнениями:  
-$$
-\Delta R_{\mu\nu} - \frac{1}{2} \Delta (g_{\mu\nu} R) = \frac{8\pi G}{c^4} \Delta T_{\mu\nu}.
-$$
+$$\Delta R_{\mu\nu} - \frac{1}{2} \Delta (g_{\mu\nu} R) = \frac{8\pi G}{c^4} \Delta T_{\mu\nu}.$$
 
 ---
 
