@@ -112,16 +112,16 @@ $$\Delta R_{\mu\nu} - \frac{1}{2} \Delta (g_{\mu\nu} R) = \frac{8\pi G}{c^4} \De
 
 **Математическая формализация:**  
 Пусть $\{\mathcal{S}_n\}_{n \in \mathbb{N}}$ — последовательность категорий с шагами решётки $\Delta x_n = \frac{1}{n}$, $\Delta t_n = \frac{1}{c n}$. Рассмотрим предел в категории **проконечных категорий**:  
-$$\mathcal{S}_{\text{cont}} = \varprojlim_{n \to \infty} \mathcal{S}_n.$$  
+$\mathcal{S}_{\text{cont}} = \varprojlim_{n \to \infty} \mathcal{S}_n.$  
 **Условия гладкости:**  
 1. **Инвариантность правил:** Для каждого $n$ правило перехода $\delta_n$ должно быть согласовано с $\delta_{n+1}$ через гомоморфизм проекции.  
 2. **Возникновение диффеоморфизмов:** Если автомат $\mathcal{A}$ инвариантен относительно подгруппы $H \subset \text{Diff}(M)$ (диффеоморфизмы многообразия $M$), то:  
-$$\mathcal{S}_{\text{cont}} \simeq \mathbf{Man}(M),$$  
+$\mathcal{S}_{\text{cont}} \simeq \mathbf{Man}(M)$,  
 где $\mathbf{Man}(M)$ — категория гладких отображений на $M$.
 
 **Теорема 8.1** (Аппроксимация континуума):  
 Если для всех $n$ выполняется:  
-$$\delta_n \circ \pi_{n+1 \to n} = \pi_{n+1 \to n} \circ \delta_{n+1},$$  
+$\delta_n \circ \pi_{n+1 \to n} = \pi_{n+1 \to n} \circ \delta_{n+1}$,  
 где $\pi_{n+1 \to n}$ — проекция решётки $n+1$ на $n$, то $\mathcal{S}_{\text{cont}}$ является топосом, эквивалентным категории пучков на $M$.
 
 ---
