@@ -138,9 +138,9 @@ $$\delta_n \circ \pi_{n+1 \to n} = \pi_{n+1 \to n} \circ \delta_{n+1},$$
 
 **Теорема 8.2** (Квантовая суперпозиция):  
 Если $U$ удовлетворяет условию локальности:  
-$$U = \bigotimes_{i \in \Gamma} U_i, \quad U_i \in \text{U}(\mathcal{H}_i),$$  
+$U = \bigotimes_{i \in \Gamma} U_i, \quad U_i \in \text{U}(\mathcal{H}_i)$,  
 то эволюция автомата воспроизводит уравнение Шрёдингера в континуальном пределе:  
-$$i\hbar \frac{\partial}{\partial t} \psi = \hat{H} \psi,$$  
+$i\hbar \frac{\partial}{\partial t} \psi = \hat{H} \psi$,  
 где $\hat{H}$ — гамильтониан, связанный с $U$ через $U = e^{-i \hat{H} \Delta t}$.
 
 **Следствие:** Нарушение неравенств Белла в $\mathcal{A}_Q$ невозможно, если $U$ не допускает нелокальных корреляций.
