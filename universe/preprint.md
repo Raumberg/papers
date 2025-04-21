@@ -74,7 +74,7 @@ $$\Delta A \geq \frac{\partial A}{\partial t} \Delta t,$$
 
 **Теорема 5.2** (Предел энергии):  
 Максимальная энергия частицы в симуляции:  
-$$E_{\text{max}} = \frac{\hbar}{\Delta t} = \hbar c.$$  
+$E_{\text{max}} = \frac{\hbar}{\Delta t} = \hbar c.$  
 *Доказательство:* Из принципа неопределённости $\Delta E \Delta t \geq \hbar/2$.
 
 **Теорема 5.3** (Квантование гравитации):  
